@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1% ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+    }
+.clearfix{
+        float: none;
+        clear: both;
+
+    }
+.tbl-full{
+        width: 100%;
+    }
+    .tbl-30{
+        width: 30%;
+    }
+table tr th{
+         border-bottom:  1px solid black;
+         padding: 1%    ;
+         text-align:left ;
+    }
+
+table tr td {
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #74b9ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.btn-primary:hover{
+    background-color: #74b9ff;
+
+}
+.btn-secoundry{
+    background-color: #29e154;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.btn-secoundry:hover{
+    background-color: #8ab0d6;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+.btn-danger{
+    background-color: #55efc4;
+    padding: 1%;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.btn-danger:hover{
+    background-color: #55efc4;
+
+}
+
+    .menu{
+        border-bottom: 1px solid rgb(138, 3, 3);
+    }
+   /* CSS for Menu */
+    .menu ul {
+        list-style-type: none;
+    }
+    .menu ul li{
+            display: inline;
+            padding: 1%;
+    }
+    .menu ul li a{
+            text-decoration: none;
+            font-weight: bold;
+            color: #ff6b81;
+    }
+    .menu ul li a:hover{
+             color: #d6b7ba;
+    }
+    /* main contant */
+    .main-content{
+        margin: 1% 0;
+        background-color: antiquewhite;
+        padding: 3% 0;
+    }
+    .col-4{
+        width: 18%;
+        background-color: white;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+
+    }
+    /* CSS for Footer */
+    .footer {
+    background-color: #ff4757;
+    color: rgb(77, 10, 10);
+    } 
+/* CSS for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/* CSS for Login */
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
